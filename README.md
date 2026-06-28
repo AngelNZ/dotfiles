@@ -27,3 +27,19 @@ stow -d stow -t ~ zsh vim git opencode
 | `vim`   | `~/.vimrc` |
 | `git`   | `~/.gitconfig` |
 | `opencode` | `~/.config/opencode/` |
+| `omo` | `~/.config/opencode/oh-my-openagent.json` |
+
+## oh-my-openagent
+
+Plugin de agentes para OpenCode. Instalado con:
+
+- **Plataforma:** OpenCode (Ultimate)
+- **Modelo principal:** Kimi K2.6 (OpenCode Go)
+- **Gemini:** Google Gemini 3.1 Pro / 3 Flash
+
+Para autenticar Gemini:
+
+```bash
+opencode auth login
+# Provider → Google → OAuth con Google
+```
